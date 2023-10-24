@@ -9,7 +9,11 @@
     - Extra: Make the corners rounded
 */
 button {
-    font-size: 5px;
+    background-color: #FF69B4;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 25px;
     cursor: pointer;
     transition: transform 0.3s, background-color 0.3s, font-size 0.3s;
 }
@@ -20,7 +24,8 @@ button {
     - Set the font size to 18px
 */
 button:hover {
-    
+  font-size: 18px;
+  background-color: #8B008B;
 }
 
 button:active {
